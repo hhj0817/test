@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/setting_time_lock_item"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/item_app_lock_list_selector"
+    android:paddingLeft="15dp"
+    android:paddingRight="12dp">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:textColor="#ff444444"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/sub_text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical"
+        android:textColor="#ff999999"
+        android:textSize="14sp"/>
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/btn_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/switch_selector"/>
+
+</RelativeLayout>

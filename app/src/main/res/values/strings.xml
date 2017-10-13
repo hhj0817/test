@@ -1,0 +1,179 @@
+<resources>
+    <string name="app_name">Test</string>
+
+
+    <string name="app_lock">应用锁</string>
+    <string name="activity_start_titleText">首次使用，请设置解锁密码</string>
+    <string name="activity_start_second">请再次输入密码</string>
+    <string name="first_photo">首次使用，请绘制解锁图案</string>
+    <string name="second_photo">请再次绘制解锁图案</string>
+    <string name="photo_lock">请绘制当前解锁图案</string>
+    <string name="new_photo">请绘制新的解锁图案</string>
+    <string name="new_second">请再次绘制新的解锁图案</string>
+    <string name="old_pwd">输入当前密码</string>
+    <string name="new_pwd">新密码</string>
+    <string name="new_pwd_again">确认新密码</string>
+    <string name="ok_btn_confirm">按确认键设置密码</string>
+    <string name="pwdnotequal">两次输入不同，请确认后重新输入</string>
+    <string name="safe_ques">安全问题</string>
+    <string name="safe_ans_empty">安全答案 不能为空</string>
+    <string name="safe_ans_updated">安全答案已更新</string>
+    <string name="ok">确认</string>
+    <string name="cancel">取消</string>
+    <string name="sureunlock">确定要解锁吗?</string>
+    <string name="base_settings">基本设置</string>
+    <string name="lock_delay">延迟锁定</string>
+    <string name="lock_delay_time">延迟时间</string>
+    <string name="second15">15 秒</string>
+    <string name="second30">30 秒</string>
+    <string name="minute1">1 分钟</string>
+    <string name="minute2">2 分钟</string>
+    <string name="minute5">5 分钟</string>
+    <string name="sound">秒</string>
+    <string name="screen_lock_off">关屏时锁定</string>
+    <string name="notibar_lock">通知栏提示</string>
+    <string name="anti_uninstall">防卸载</string>
+    <string name="protectapp_summary">防止应用被他人卸载</string>
+    <string name="safe_setting">安全设置</string>
+    <string name="change_lock_type">更改锁类型</string>
+    <string name="current">当前</string>
+    <string name="change_password">修改密码</string>
+    <string name="show_pattern_track">图案路径可见</string>
+    <string name="vibrate">振动反馈</string>
+    <string name="wrong_ans">安全答案错误</string>
+    <string name="digital_lock">数字解锁</string>
+    <string name="gesture_lock">图案解锁</string>
+    <string name="input_pwd">输入密码：</string>
+    <string name="failure">密码错误</string>
+    <string name="pic_count_error">您需要连接至少4个点，请重试</string>
+
+    <!--
+    <string name="safe_ans_tolong">12个字符之内</string>
+    <string name="pwd_pass">密码设置成功</string>
+    <string name="complete_up">完成后松开手指</string>
+    <string name="complete">完成</string>
+    <string name="photo_success">解锁图案设置成功</string>
+    <string name="again">对不起,请重试</string>
+    <string name="lock_state">锁定状态</string>
+    <string name="change_photo">更改解锁图案</string>
+    <string name="inputpwd_unlock">请输入密码解锁应用</string>
+    <string name="forget_pwd">忘记密码</string>
+    <string name="draw_pwd">请绘制图案解锁应用</string>
+
+    <string name="pwdless4">密码不足4位</string>
+    <string name="forsafe">为了你账号的安全和稳定，请设置新的密码</string>
+    <string name="isee">我知道了</string>
+    <string name="newfunck">新功能</string>
+    <string name="whatisnew">此版本中的新功能</string>
+    <string name="newdetail">1.修复了之前的一些Bug,2.增加解锁振动反馈开关,3.增加延迟锁定开关,4.修改设置密码规则,5.增加安全问答设置项,6.增加关屏锁定开关</string>
+    <string name="locked">已锁定</string>
+    <string name="unlocked">已解锁</string>
+    <string name="app_name">程序锁</string>
+    <string name="ori_pwd">初始密码为(123456)</string>
+    <string name="enter">进入</string>
+    <string name="exit">退出</string>
+    <string name="delete">删除</string>
+    <string name="more_failure">输入错误，请三分钟后再试！</string>
+    <string name="select_app">选择程序</string>
+    <string name="setting">设置</string>
+    <string name="more">更多</string>
+    <string name="more_exit">再按一次就退出</string>
+    <string name="close_lock">程序锁</string>
+    <string name="change_lock">更改锁类型</string>
+    <string name="change_pic_pwd">修改锁图案</string>
+    <string name="next">下一步</string>
+    <string name="finish">完成</string>
+    <string name="successfully_modified">修改成功</string>
+    <string name="pwd_count_error">密码不得少于6位字符，请确认后重新输入</string>
+    <string name="locked_app">锁定的程序</string>
+    <string name="all_app">未锁定的程序</string>
+    <string name="wait">请稍候&#8230;</string>
+
+    <string name="widget">程序锁插件1x1</string>
+    <string name="change_digital_pwd_summary">密码为6&#8211;12位数字、字母组合</string>
+    <string name="rate">评分</string>
+    <string name="feedback">反馈</string>
+    <string name="feedback_info">非常遗憾，程序锁好像并不能在每一款android设备上完美的运行，如果它出现了任何的问题，请您发送一封电子邮件给我，我将会为此问题找到一个好的解决方案！谢谢！:)</string>
+    <string name="feedback_send">发送</string>
+    <string name="feedback_close">关闭</string>
+    <string name="feedback_declaration">我们需要了解您的手机型号，是为了更好地帮助您，绝不会用在其他途径。</string>
+    <string name="proapp">是否要下载完整无广告版应用？</string>
+    <string name="notip">不再提醒</string>
+    <string name="pro">无广告版</string>
+    <string name="show_pwd">显示密码</string>
+    <string name="set_pwd_first">请先设置密码</string>
+    <string name="pwd_set_success">密码设置成功！</string>
+    <string name="email_notice">注：请检查邮箱输入是否正确，以便将来取回密码！</string>
+    <string name="email">安全邮箱</string>
+    <string name="email_empty">安全邮箱不能为空！</string>
+    <string name="email_set_success">安全邮箱设置成功！</string>
+    <string name="email_restore">备份密码</string>
+    <string name="email_restore_summary">请检查安全邮箱邮件</string>
+    <string name="no_sdcard">sdcard不存在或已挂起，请先插入sdcard</string>
+    <string name="email_pwd_restore">程序锁备份密码</string>
+    <string name="pwd_digital">数字/字符密码</string>
+    <string name="pwd_pic">图案密码</string>
+    <string name="unknow_error">密码备份出错，请退出应用后重试</string>
+    <string name="no_mail">备份失败，请先安装Gmail邮箱</string>
+    <string name="no_pic_pwd">您还未设置图案密码</string>  -->
+
+    <!-- safe ques -->
+    <string-array name="safe_questions">
+        <item >你的幸运数字是什么?</item>
+        <item >你中学时候最好的朋友的名字是什么?</item>
+        <item >你在影院看的第一场电影的名字是什么?</item>
+        <item >你最喜欢的儿童书籍是什么?</item>
+        <item >你购买的第一张专辑是什么?</item>
+        <item >你儿时的街道名字是什么?</item>
+        <item >你在学校的时候最喜欢的电影明星或者角色名字是什么?</item>
+        <item >你中学时期最喜欢的歌手或者乐队的名字是什么?</item>
+    </string-array>
+
+    <string name="safe_ans_hint">在这里输入安全问题的答案.</string>
+
+    <!-- notice -->
+    <string name="notice_title">已锁定</string>
+    <string name="notice_desc">以下这些应用和所选应用在同一个包中，所以也会被加入到保护列表中.</string>
+    <string name="notice_title_unlock">已解锁</string>
+    <string name="notice_desc_unlock">以下这些应用和所选应用在同一个包中，所以会被同时移出保护列表.</string>
+
+
+    <!-- rating -->
+    <string name="rt_title">我们期待您的意见</string>
+    <string name="rt_message">喜欢我们的应用锁么？ 可以给我们一个评价么!</string>
+    <string name="rt_rt">非常棒</string>
+    <string name="rt_fb">我要提意见</string>
+    <string name="rt_cancel">下次再说</string>
+
+    <string name="request_permisson">The App Lock Func need the Usage Acess Permission to get the current app in running. And then lock them if needed.</string>
+    <string name="permission_cancel">"Cancel</string>
+    <string name="open_permission">Open Permission</string>
+    <string name="safe_ques_security_setting">安全设置</string>
+    <string name="safe_ques_security_ques">安全问题</string>
+
+    <string name="home_app">应用</string>
+    <string name="home_settings">设置</string>
+
+    <string name="anti_uninstall_title">启用防卸载</string>
+    <string name="anti_uninstall_message">防止他人卸载程序锁</string>
+    <string name="anti_uninstall_no">不再提示</string>
+    <string name="anti_uninstall_next_time">下次再说</string>
+    <string name="anti_uninstall_yes">启用</string>
+
+    <string name="intruder_selfie">入侵者拍照</string>
+    <string name="check_invader">检测到入侵者</string>
+    <string name="photo_path">图片保存路径</string>
+    <string name="delete_photo">删除照片</string>
+
+    <string name="detect_new_app">新应用安装检测</string>
+    <string name="do_you_want_to_lock">是否立即保护</string>
+
+    <string name="brightness_protect">亮屏保护</string>
+    <string name="rotate_protect">旋转保护</string>
+
+    <string name="settings_screen_protect">亮屏保护</string>
+    <string name="settings_rotate_protect">旋转保护</string>
+    <string name="rotate_protect_direction">旋转保护屏幕方向</string>
+    <string name="rotate_direction_portrait">竖屏</string>
+    <string name="rotate_direction_auto">自动旋转</string>
+</resources>
